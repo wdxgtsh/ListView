@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white_replace"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/my_subscribe_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px142"
+        android:background="@drawable/selector_comm_item_click"
+        android:gravity="center">
+
+        <ImageView tools:ignore="contentDescription"
+            android:id="@+id/my_subscribe_iv"
+            android:layout_width="@dimen/px90"
+            android:layout_height="@dimen/px90"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px30"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px80"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px20"
+            android:layout_toRightOf="@+id/iv_subscribe_alllable_photo"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/my_subscribe_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/font34"/>
+
+            <TextView
+                android:id="@+id/my_subscribe_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:textColor="@color/text_gray_default"
+                android:textSize="@dimen/font30"/>
+        </LinearLayout>
+
+        <ImageView
+            tools:ignore="contentDescription"
+            android:id="@+id/my_subscribe_button_iv"
+            android:layout_width="@dimen/px120"
+            android:layout_height="@dimen/px50"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px40"
+            android:scaleType="fitXY"
+            android:src="@drawable/select_subscribe_btn"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px1"
+        android:background="@color/color_comm_line6"></View>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_search_compos_more"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/px90"-->
+    <!--android:background="@color/color_white_replace"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_show_more"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="展开更多"-->
+    <!--android:textColor="@color/text_search"-->
+    <!--android:textSize="@dimen/px28"/>-->
+
+    <!--<View-->
+    <!--android:layout_width="@dimen/px26"-->
+    <!--android:layout_height="@dimen/px26"-->
+    <!--android:layout_marginLeft="@dimen/px12"-->
+    <!--android:background="@drawable/arrow_graybg_more"></View>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_subscribe_alllable_line"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/window_background"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/px1"-->
+    <!--android:background="@color/color_comm_line6"/>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/px1"-->
+    <!--android:layout_marginTop="@dimen/px14"-->
+    <!--android:background="@color/color_comm_line6"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_subscribe_alllable_end"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/px142"-->
+    <!--android:background="@color/window_background"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--&gt;-->
+
+    <!--<ImageView tools:ignore="contentDescription"-->
+    <!--android:layout_width="@dimen/px266"-->
+    <!--android:layout_height="@dimen/px7"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/subscription_end"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

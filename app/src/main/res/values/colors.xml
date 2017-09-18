@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textBgColor">#128900</color>
+    <!-- 基本常用颜色值 -->
+    <color name="color_null">#00000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_white_replace">#FFFFFE</color>
+    <color name="color_black">#FF000001</color>
+    <color name="color_black_video_bg">#000001</color>
+    <color name="color_black_aa">#aa000000</color>
+    <color name="color_gray">#808080</color>
+    <color name="color_unable">#909090</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_orange_red">#ef5a46</color>
+    <color name="color_gold">#FFD700</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_green">#0BB375</color>
+    <color name="color_purple">#800080</color>
+    <color name="color_pink">#FFC0CB</color>
+    <color name="color_orange">#FFA500</color>
+    <color name="color_black_light">#99000000</color>
+    <color name="color_green_light">#0bb375</color>
+    <color name="color_float_button">#E50DB375</color>
+    <color name="color_green_black">#889B94</color>
+    <!--默认图片背景-->
+    <color name="color_pic_default">#F1F3F4</color>
+    <!--终端页标签背景-->
+    <color name="terminal_label_background">#F3F3F3</color>
+    <!-- 文字显示颜色值 -->
+    <color name="text_black_default">#333333</color>
+    <color name="text_black_default2">#222222</color>
+    <color name="text_cancel">#AAAAAA</color>
+    <color name="text_gray_deep">#666666</color>
+    <color name="text_gray_default">#777777</color>
+    <color name="text_gray_home">#3E4045</color>
+    <color name="text_gray_conten">#888888</color>
+
+    <color name="text_gray_conten5">#555555</color>
+    <color name="text_gray_hint">#BDBDBD</color>
+    <color name="text_gray_737b8f">#737B8F</color>
+    <color name="text_green">#0BB375</color>
+    <color name="text_black_444444">#444444</color>
+    <color name="text_white_cceadc">#CCEADC</color>
+    <color name="text_gray_d1d1d1">#D1D1D1</color>
+    <color name="text_gray_dfdfdf">#DFDFDF</color>
+    <color name="color_gray_7d7d7d">#7D7D7D</color>
+    <!-- 查看UI设置的背景色-->
+    <color name="test_green">#990BB375</color>
+    <!-- 查看UI设置的背景色-->
+    <color name="shadow_text">#4C1D1F1F</color>
+    <!-- 登录 注册 按钮失效字体颜色 -->
+    <!--<color name="button_text_false">#84C4F2</color>-->
+    <color name="button_text_false">#8DD6B4</color>
+    <color name="button_green_background">#02B875</color>
+    <!-- 忘记密码字体颜色==蓝色 -->
+    <color name="color_blue_forget_pw">#0C8EF3</color>
+    <!-- 登录 注册 按钮背景色 -->
+    <color name="button_blue_background">#0C8EF3</color>
+
+    <!--红色-->
+    <color name="error_red_background">#F04646</color>
+    <!--#000000透明度30%-->
+    <color name="color_black_30">#1E000000</color>
+    <!--#000000透明度40%-->
+    <color name="color_black_66">#66000000</color>
+    <!--#000000透明度50%-->
+    <color name="color_black_50">#7F000000</color>
+    <!--#000000透明度60%-->
+    <color name="color_black_60">#99000000</color>
+    <!--#000000透明度70%-->
+    <color name="color_black_70">#4c000000</color>
+    <!--#000000透明度75%-->
+    <color name="color_black_75">#3F000000</color>
+    <!--#000000透明度80%-->
+    <color name="color_black_80">#C8000000</color>
+    <!--#000000透明度75%-->
+    <color name="color_white_75">#BFFFFFFF</color>
+    <!--#F8F8F8透明度97%-->
+    <color name="color_white_97">#61F8F8F8</color>
+    <!--黄色-->
+    <!-- 我的 去认证 -->
+    <color name="personal_do_id">#F5B03B</color>
+
+    <color name="gray_a">#CCCCCC</color>
+    <color name="gray_b">#777777</color>
+    <color name="gray_g">#555555</color>
+    <color name="gray_c">#BBBBBB</color>
+    <color name="gray_d">#C3D1CF</color>
+    <color name="gray_f">#999999</color>
+    <color name="gray_k">#f9f9f9</color>
+    <color name="gray_h">#D8D8D8</color>
+    <color name="gray_l">#333333</color>
+    <color name="gray_m">#E7EBEE</color>
+    <color name="gray_n">#FDFDFE</color>
+    <color name="gray_o">#E7E7E7</color>
+    <color name="gray_p">#FAFBFB</color>
+    <color name="login_line">#EBEBEB</color>
+    <color name="personal_line">#EBEBEB</color>
+    <color name="personal_line_a">#F0F5F8</color>
+    <color name="personal_line_b">#EBEBEB</color>
+    <color name="personal_line_c">#E4E9EC</color>
+    <color name="black_line">#DFDFDF</color>
+    <color name="ref_selected_bg">#F4F4F4</color>
+    <!--分割线============================================================================================-->
+    <!--底部工具栏上方，1、用于区分底部导航与正文内容2、区分标题和简介-->
+    <color name="color_comm_line1">#B4B4B4</color>
+    <!--输入表单，1、用于表单已经被激活-->
+    <color name="color_comm_line2">#CCCCCC</color>
+    <!--区分actionBar title和内容列表-->
+    <color name="color_comm_line3">#D7DBDE</color>
+    <!--区分小标题和内容列表和其他情况-->
+    <color name="color_comm_line4">#DFDFDF</color>
+    <!--列表中使用的分割线-->
+    <color name="color_comm_line5">#EBEBEB</color>
+    <!--栏目于栏目之间的线-->
+    <color name="color_comm_line6">#E4E9EC</color>
+    <!--标题栏目分割线 间断分割线-->
+    <color name="color_comm_gap">#C0C7CB</color>
+
+    <!--界面默认背景颜色-->
+    <color name="window_background">#F0F4F7</color>
+    <!--loading界面默认背景颜色-->
+    <color name="loading_background">#E6EAED</color>
+    <!-- 首页底部按钮背景颜色 -->
+    <color name="color_homepage_tab_backround">#F8F8F8</color>
+    <!-- popwindow标题背景颜色 -->
+    <color name="popwindow_title_background_color">#F0F0F0</color>
+    <!--按钮点击颜色-->
+    <color name="color_ll_pressed">#E3E3E8</color>
+    <color name="ref_checked">#FF9224</color>
+    <!-- 上拉加载下拉刷新 背景浅灰-->
+    <color name="pull_refresh_gray">#EFEFF4</color>
+
+    <!--搜索页面颜色-->
+    <!--搜索界面中搜索文本,下方滚动条颜色,下方标题颜色-->
+    <color name="text_blue_search">#0BB375</color>
+    <color name="text_blue_search_1">#220BB375</color>
+    <color name="text_blue_search_2">#440BB375</color>
+    <color name="text_blue_search_3">#880BB375</color>
+    <color name="text_blue_search_4">#9F0BB375</color>
+
+    <!--搜索界面搜索框文字的颜色-->
+    <color name="text_search_title">#969696</color>
+    <!--热门搜索最近搜索的文字颜色-->
+    <color name="text_search">#737B8F</color>
+    <!--搜索页面清空的文字颜色-->
+    <color name="text_search_clear">#AAACBC</color>
+    <!--最近搜索页面侧拉删除背景颜色-->
+    <color name="text_delete_background">#EA4646</color>
+    <!--popwindow有透明度的白色-->
+    <color name="color_white_90">#F0FFFFFF</color>
+
+    <!--产品页面颜色-->
+    <!--图片简介类,图片上覆盖的灰色-->
+    <color name="view_image_gray">#4C212121</color>
+    <color name="view_image_button_gray">#212121</color>
+    <color name="text_product_light">#737B8F</color>
+    <color name="view_transparency_25">#BF000000</color>
+    <!--品牌首页toolbar底部线条颜色-->
+    <color name="view_product_line_gray">#D7DBDE</color>
+
+    <!--厂商活动页面颜色-->
+    <color name="campaign_head_color">#0BB375</color>
+
+    <!--会议直播页面颜色-->
+    <color name="common_background_color">#F8F8F8</color>
+    <color name="common_black_line">#DBDBDB</color>
+    <color name="schedule_date_list_line">#0fA970</color>
+    <color name="text_personal_center_color3">#666666</color>
+    <color name="text_disable_color">#69B7F3</color>
+    <color name="text_terminal_full_content_color1">#73859E</color>
+    <color name="activity_back_text">#666666</color>
+    <color name="color_personal_center_background_gray">#EFEFF4</color>
+    <color name="tab_text_default_color">#555555</color>
+    <!--下载页面颜色-->
+    <!--下载页面观看状态文字颜色-->
+    <color name="download_text_gray_color">#AAACBC</color>
+
+    <!--认证-->
+    <!--背景色-->
+    <color name="auth_doctor">#6186CC</color>
+    <color name="auth_vendor">#02B875</color>
+    <color name="auth_dealer">#4699ED</color>
+    <color name="auth_medicine_constitution">#F2C24F</color>
+    <!-- 透明背景 -->
+    <item name="guidance_back" type="color">#cc000000</item>
+    <!--引导页-->
+    <!--体验一下字体颜色-->
+    <color name="login_guide_experience">#A6CEDB</color>
+
+    <!--评论播放视频-->
+    <color name="pop_text_photo">#F89C52</color>
+    <color name="video_close">#FF0F0F0F</color>
+
+    <!-- 获取验证码 -->
+    <color name="inactive_verification_code">#EEF1F7</color>
+    <!-- 全选文本背景色 -->
+    <color name="cursor_handle_color">#0d7aff</color>
+    <color name="selected_blue">#afe1f4</color>
+</resources>
