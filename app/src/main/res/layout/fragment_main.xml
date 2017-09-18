@@ -1,48 +1,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/color_white_replace"
-    android:descendantFocusability="blocksDescendants"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/id_content"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp53"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom"
-        android:gravity="bottom"
-        android:paddingBottom="@dimen/dp0">
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
 
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_weixin"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_friend"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_contact"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_setting"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-        </LinearLayout>
-
-    </LinearLayout>
+    <include layout="@layout/bottom_bar"/>
 
 </LinearLayout>

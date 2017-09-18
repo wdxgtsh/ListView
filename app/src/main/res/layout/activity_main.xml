@@ -19,6 +19,11 @@
         android:onClick="abstractClick"
         android:text="使用抽象类回调"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp36"
+        android:onClick="tabbarClick"
+        android:text="Tabbar"/>
 
 
 </LinearLayout>

@@ -26,6 +26,9 @@
         <activity android:name=".MySubscribeActivity">
 
         </activity>
+        <activity android:name=".TabbarActivity">
+
+        </activity>
     </application>
 
 </manifest>
