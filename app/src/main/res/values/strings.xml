@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ListView</string>
+    <string name="home">首页</string>
+    <string name="consult">咨询</string>
+    <string name="caseofillness">病例</string>
+    <string name="mine">我的</string>
+
 </resources>

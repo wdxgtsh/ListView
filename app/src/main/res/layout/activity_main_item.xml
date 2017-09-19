@@ -7,12 +7,12 @@
         android:id="@+id/desc_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/auth_doctor"
-        android:layout_marginTop="@dimen/dp20"
         android:layout_marginBottom="@dimen/dp20"
         android:layout_marginLeft="@dimen/dp20"
         android:layout_marginRight="@dimen/dp20"
-        />
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/auth_doctor" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/px1"

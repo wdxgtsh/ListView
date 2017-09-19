@@ -102,7 +102,7 @@ public class TabbarActivity extends Activity implements OnClickListener
             case 0:
                 // 当点击了消息tab时，改变控件的图片和文字颜色
                 ((ImageButton) mTabBtnWeixin.findViewById(R.id.btn_tab_bottom_weixin))
-                        .setImageResource(R.drawable.tab_weixin_pressed);
+                        .setImageResource(R.drawable.ic_tabar_home_selected);
                 if (mTab01 == null)
                 {
                     // 如果MessageFragment为空，则创建一个并添加到界面上
@@ -117,7 +117,7 @@ public class TabbarActivity extends Activity implements OnClickListener
             case 1:
                 // 当点击了消息tab时，改变控件的图片和文字颜色
                 ((ImageButton) mTabBtnFrd.findViewById(R.id.btn_tab_bottom_friend))
-                        .setImageResource(R.drawable.tab_find_frd_pressed);
+                        .setImageResource(R.drawable.ic_tabar_consult_selected);
                 if (mTab02 == null)
                 {
                     // 如果MessageFragment为空，则创建一个并添加到界面上
@@ -132,7 +132,7 @@ public class TabbarActivity extends Activity implements OnClickListener
             case 2:
                 // 当点击了动态tab时，改变控件的图片和文字颜色
                 ((ImageButton) mTabBtnAddress.findViewById(R.id.btn_tab_bottom_contact))
-                        .setImageResource(R.drawable.tab_address_pressed);
+                        .setImageResource(R.drawable.ic_tabar_case_selected);
                 if (mTab03 == null)
                 {
                     // 如果NewsFragment为空，则创建一个并添加到界面上
@@ -147,7 +147,7 @@ public class TabbarActivity extends Activity implements OnClickListener
             case 3:
                 // 当点击了设置tab时，改变控件的图片和文字颜色
                 ((ImageButton) mTabBtnSettings.findViewById(R.id.btn_tab_bottom_setting))
-                        .setImageResource(R.drawable.tab_settings_pressed);
+                        .setImageResource(R.drawable.ic_tabar_personal_selected);
                 if (mTab04 == null)
                 {
                     // 如果SettingFragment为空，则创建一个并添加到界面上
@@ -169,13 +169,13 @@ public class TabbarActivity extends Activity implements OnClickListener
     private void resetBtn()
     {
         ((ImageButton) mTabBtnWeixin.findViewById(R.id.btn_tab_bottom_weixin))
-                .setImageResource(R.drawable.tab_weixin_normal);
+                .setImageResource(R.drawable.ic_tabar_home);
         ((ImageButton) mTabBtnFrd.findViewById(R.id.btn_tab_bottom_friend))
-                .setImageResource(R.drawable.tab_find_frd_normal);
+                .setImageResource(R.drawable.ic_tabar_consult);
         ((ImageButton) mTabBtnAddress.findViewById(R.id.btn_tab_bottom_contact))
-                .setImageResource(R.drawable.tab_address_normal);
+                .setImageResource(R.drawable.ic_tabar_case);
         ((ImageButton) mTabBtnSettings.findViewById(R.id.btn_tab_bottom_setting))
-                .setImageResource(R.drawable.tab_settings_normal);
+                .setImageResource(R.drawable.ic_tabar_personal);
     }
 
     /**

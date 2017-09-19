@@ -4,102 +4,113 @@
     android:layout_width="fill_parent"
     android:layout_height="55dp"
     android:layout_alignParentBottom="true"
-    android:background="@drawable/bottom_bar" >
+    android:background="@color/color_white">
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="55dp" >
+        android:layout_height="55dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px1"
+            android:background="@color/color_comm_line6"></View>
 
         <LinearLayout
-            android:id="@+id/id_tab_bottom_weixin"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:descendantFocusability="beforeDescendants"
-            android:gravity="center"
-            android:orientation="vertical" >
+            android:layout_width="fill_parent"
+            android:layout_height="55dp">
 
-            <ImageButton
-                android:id="@+id/btn_tab_bottom_weixin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#0000"
-                android:clickable="false"
-                android:src="@drawable/tab_weixin_pressed" />
+            <LinearLayout
+                android:id="@+id/id_tab_bottom_weixin"
+                android:layout_width="0dp"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                android:descendantFocusability="beforeDescendants"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="微信" />
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/btn_tab_bottom_weixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:clickable="false"
+                    android:src="@drawable/ic_tabar_home_selected" />
 
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_friend"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:descendantFocusability="beforeDescendants"
-            android:gravity="center"
-            android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home" />
+            </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/btn_tab_bottom_friend"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#0000"
-                android:clickable="false"
-                android:src="@drawable/tab_find_frd_normal" />
+            <LinearLayout
+                android:id="@+id/id_tab_bottom_friend"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:descendantFocusability="beforeDescendants"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="朋友" />
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/btn_tab_bottom_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:clickable="false"
+                    android:src="@drawable/ic_tabar_consult" />
 
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_contact"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:descendantFocusability="beforeDescendants"
-            android:gravity="center"
-            android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consult" />
+            </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/btn_tab_bottom_contact"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#0000"
-                android:clickable="false"
-                android:src="@drawable/tab_address_normal" />
+            <LinearLayout
+                android:id="@+id/id_tab_bottom_contact"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:descendantFocusability="beforeDescendants"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="通讯录" />
-        </LinearLayout>
+                <ImageButton
+                    android:id="@+id/btn_tab_bottom_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:clickable="false"
+                    android:src="@drawable/tab_address_normal" />
 
-        <LinearLayout
-            android:id="@+id/id_tab_bottom_setting"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:descendantFocusability="beforeDescendants"
-            android:gravity="center"
-            android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caseofillness" />
+            </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/btn_tab_bottom_setting"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#0000"
-                android:clickable="false"
-                android:src="@drawable/tab_settings_normal" />
+            <LinearLayout
+                android:id="@+id/id_tab_bottom_setting"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:descendantFocusability="beforeDescendants"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="设置" />
+                <ImageButton
+                    android:id="@+id/btn_tab_bottom_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:clickable="false"
+                    android:src="@drawable/tab_settings_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mine" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
