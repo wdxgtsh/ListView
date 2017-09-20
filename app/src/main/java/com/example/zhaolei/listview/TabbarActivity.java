@@ -25,10 +25,10 @@ public class TabbarActivity extends Activity implements OnClickListener
     /**
      * 底部四个按钮
      */
-    private LinearLayout mTabBtnWeixin;
-    private LinearLayout mTabBtnFrd;
-    private LinearLayout mTabBtnAddress;
-    private LinearLayout mTabBtnSettings;
+    private LinearLayout mTabHomePage;
+    private LinearLayout mTabConsult;
+    private LinearLayout mTabCase;
+    private LinearLayout mTabMine;
     /**
      * 用于对Fragment进行管理
      */
@@ -50,15 +50,15 @@ public class TabbarActivity extends Activity implements OnClickListener
     private void initViews()
     {
 
-        mTabBtnWeixin = (LinearLayout) findViewById(R.id.id_tab_bottom_weixin);
-        mTabBtnFrd = (LinearLayout) findViewById(R.id.id_tab_bottom_friend);
-        mTabBtnAddress = (LinearLayout) findViewById(R.id.id_tab_bottom_contact);
-        mTabBtnSettings = (LinearLayout) findViewById(R.id.id_tab_bottom_setting);
+        mTabHomePage = (LinearLayout) findViewById(R.id.id_tab_bottom_weixin);
+        mTabConsult = (LinearLayout) findViewById(R.id.id_tab_bottom_friend);
+        mTabCase = (LinearLayout) findViewById(R.id.id_tab_bottom_contact);
+        mTabMine = (LinearLayout) findViewById(R.id.id_tab_bottom_setting);
 
-        mTabBtnWeixin.setOnClickListener(this);
-        mTabBtnFrd.setOnClickListener(this);
-        mTabBtnAddress.setOnClickListener(this);
-        mTabBtnSettings.setOnClickListener(this);
+        mTabHomePage.setOnClickListener(this);
+        mTabConsult.setOnClickListener(this);
+        mTabCase.setOnClickListener(this);
+        mTabMine.setOnClickListener(this);
     }
 
     @Override
@@ -101,7 +101,7 @@ public class TabbarActivity extends Activity implements OnClickListener
         {
             case 0:
                 // 当点击了消息tab时，改变控件的图片和文字颜色
-                ((ImageButton) mTabBtnWeixin.findViewById(R.id.btn_tab_bottom_weixin))
+                ((ImageButton) mTabHomePage.findViewById(R.id.btn_tab_bottom_weixin))
                         .setImageResource(R.drawable.ic_tabar_home_selected);
                 if (mTab01 == null)
                 {
@@ -116,7 +116,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 break;
             case 1:
                 // 当点击了消息tab时，改变控件的图片和文字颜色
-                ((ImageButton) mTabBtnFrd.findViewById(R.id.btn_tab_bottom_friend))
+                ((ImageButton) mTabConsult.findViewById(R.id.btn_tab_bottom_friend))
                         .setImageResource(R.drawable.ic_tabar_consult_selected);
                 if (mTab02 == null)
                 {
@@ -131,7 +131,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 break;
             case 2:
                 // 当点击了动态tab时，改变控件的图片和文字颜色
-                ((ImageButton) mTabBtnAddress.findViewById(R.id.btn_tab_bottom_contact))
+                ((ImageButton) mTabCase.findViewById(R.id.btn_tab_bottom_contact))
                         .setImageResource(R.drawable.ic_tabar_case_selected);
                 if (mTab03 == null)
                 {
@@ -146,7 +146,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 break;
             case 3:
                 // 当点击了设置tab时，改变控件的图片和文字颜色
-                ((ImageButton) mTabBtnSettings.findViewById(R.id.btn_tab_bottom_setting))
+                ((ImageButton) mTabMine.findViewById(R.id.btn_tab_bottom_setting))
                         .setImageResource(R.drawable.ic_tabar_personal_selected);
                 if (mTab04 == null)
                 {
@@ -168,13 +168,13 @@ public class TabbarActivity extends Activity implements OnClickListener
      */
     private void resetBtn()
     {
-        ((ImageButton) mTabBtnWeixin.findViewById(R.id.btn_tab_bottom_weixin))
+        ((ImageButton) mTabHomePage.findViewById(R.id.btn_tab_bottom_weixin))
                 .setImageResource(R.drawable.ic_tabar_home);
-        ((ImageButton) mTabBtnFrd.findViewById(R.id.btn_tab_bottom_friend))
+        ((ImageButton) mTabConsult.findViewById(R.id.btn_tab_bottom_friend))
                 .setImageResource(R.drawable.ic_tabar_consult);
-        ((ImageButton) mTabBtnAddress.findViewById(R.id.btn_tab_bottom_contact))
+        ((ImageButton) mTabCase.findViewById(R.id.btn_tab_bottom_contact))
                 .setImageResource(R.drawable.ic_tabar_case);
-        ((ImageButton) mTabBtnSettings.findViewById(R.id.btn_tab_bottom_setting))
+        ((ImageButton) mTabMine.findViewById(R.id.btn_tab_bottom_setting))
                 .setImageResource(R.drawable.ic_tabar_personal);
     }
 
