@@ -16,10 +16,10 @@ import android.widget.LinearLayout;
 public class TabbarActivity extends Activity implements OnClickListener
 {
 
-    private Tab01 mTab01;
-    private Tab02 mTab02;
-    private Tab03 mTab03;
-    private Tab04 mTab04;
+    private HomeFragment mTab01;
+    private ConsultFragment mTab02;
+    private CaseFragment mTab03;
+    private MineFragment mTab04;
 
 
     /**
@@ -106,7 +106,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 if (mTab01 == null)
                 {
                     // 如果MessageFragment为空，则创建一个并添加到界面上
-                    mTab01 = new Tab01();
+                    mTab01 = new HomeFragment();
                     transaction.add(R.id.id_content, mTab01);
                 } else
                 {
@@ -121,7 +121,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 if (mTab02 == null)
                 {
                     // 如果MessageFragment为空，则创建一个并添加到界面上
-                    mTab02 = new Tab02();
+                    mTab02 = new ConsultFragment();
                     transaction.add(R.id.id_content, mTab02);
                 } else
                 {
@@ -136,7 +136,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 if (mTab03 == null)
                 {
                     // 如果NewsFragment为空，则创建一个并添加到界面上
-                    mTab03 = new Tab03();
+                    mTab03 = new CaseFragment();
                     transaction.add(R.id.id_content, mTab03);
                 } else
                 {
@@ -151,7 +151,7 @@ public class TabbarActivity extends Activity implements OnClickListener
                 if (mTab04 == null)
                 {
                     // 如果SettingFragment为空，则创建一个并添加到界面上
-                    mTab04 = new Tab04();
+                    mTab04 = new MineFragment();
                     transaction.add(R.id.id_content, mTab04);
                 } else
                 {

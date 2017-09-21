@@ -9,10 +9,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by zhaolei on 2017/9/20.
+ * Created by zhaolei on 2017/9/21.
  */
 
-public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
+public class ConsultAdapter extends RecyclerView.Adapter<ConsultAdapter.ViewHolder> {
 
     /**
      * 展示数据
@@ -22,9 +22,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     /**
      * 事件回调监听
      */
-    private HomeAdapter.OnItemClickListener onItemClickListener;
+    private ConsultAdapter.OnItemClickListener onItemClickListener;
 
-    public HomeAdapter(ArrayList<String> data) {
+    public ConsultAdapter(ArrayList<String> data) {
         this.mData = data;
     }
 
@@ -60,7 +60,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
      *
      * @param listener
      */
-    public void setOnItemClickListener(HomeAdapter.OnItemClickListener listener) {
+    public void setOnItemClickListener(ConsultAdapter.OnItemClickListener listener) {
         this.onItemClickListener = listener;
     }
 
@@ -122,4 +122,5 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         }
     }
 }
+
 
